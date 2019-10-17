@@ -1,8 +1,8 @@
 import { getUser } from '../data/api.js';
 import { quests } from '../data/quest-data.js';
-import { loadProfile } from '../common/load-profile';
+import { loadProfile } from '../common/load-profile.js';
 import { createQuestLink } from './create-quest-link.js';
-import { createCompletedQuest } from './create-completed-quest';
+import { createCompletedQuest } from './create-completed-quest.js';
 import { hasCompletedAllQuests } from './has-completed-all-quests.js';
 import { isDead } from '../common/is-dead.js';
 
@@ -15,14 +15,14 @@ if (isDead(user) || hasCompletedAllQuests(quests, user)) {
 
 const nav = document.getElementById('quests');
 
-quests.forEach(function(i, quest) {
-    quest = quest[i];
+for (let i = 0; i < quests.length; i++) {
+    const quest = quests[i];
     let questDisplay = null;
     if (user.completed[quest.id]) {
         questDisplay = createCompletedQuest(quest);
-    } else {
+    }
+    else {
         questDisplay = createQuestLink(quest);
     }
     nav.appendChild(questDisplay);
-    
-});
+}

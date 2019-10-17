@@ -1,8 +1,9 @@
 export const hasCompletedAllQuests = (quests, user) => {
-    quests.forEach(function(i, quest) {
-        quest = quest[i];
+    for (let i = 0; i < quests.length; i++) {
+        const quest = quests[i];
         if (!user.completed[quest.id]) {
             return false;
         }
-    });
+    }
+    return true;
 };

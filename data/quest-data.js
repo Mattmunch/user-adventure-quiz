@@ -98,6 +98,4 @@ const treasure = {
     }]
 };
 
-const quests = [trailBlazers, treasure, tradeDeal];
-
-export default quests;
+export const quests = [trailBlazers, treasure, tradeDeal];
