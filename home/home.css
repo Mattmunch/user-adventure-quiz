@@ -1,0 +1,10 @@
+input:checked + img {
+    border: solid 3px lightgreen;
+}
+img {
+    height: 100px;
+    
+    }
+input[type='radio'] {
+        display: none;
+        }
