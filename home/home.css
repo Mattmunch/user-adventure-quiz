@@ -3,6 +3,7 @@ input:checked + img {
 }
 img {
     height: 100px;
+    width:auto;
     
     }
 input[type='radio'] {

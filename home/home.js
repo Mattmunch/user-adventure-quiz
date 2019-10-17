@@ -8,7 +8,7 @@ const startButton = document.getElementById('user-sign-up');
 
 
 
-startButton.addEventListener('submit', function(event) {
+startButton.addEventListener('submit', (event) => {
     event.preventDefault();
     const formData = new FormData (startButton);  
     const user = makeUser(formData);

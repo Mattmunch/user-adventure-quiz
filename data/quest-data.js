@@ -5,7 +5,7 @@ const trailBlazers = {
         top: '89%',
         left: '44%'
     },
-    image: '',
+    image: './assets/buzzer-beater.jpg',
     description: `There's five seconds on the clock, you're down by 2 points, the team is huddled up to draw up one last play. Coach is leaning towards having the 2-man take the shot. What do you do?
         
     `,
@@ -35,7 +35,7 @@ const tradeDeal = {
         top: '57%',
         left: '67%'
     },
-    image: '',
+    image: 'assets/one-on-one-meeting.jpg',
     description: `
         Your rookie contract is up and you had a team option added to your draft contract. Coach is honoring that and has agreed to offer a trade to the team of your choosing. Coach has added that he would love to keep you around and build a franchise player out of you. He offered you a 5-year 107 million dollar contract. What do you do?
     `,
@@ -73,7 +73,7 @@ const treasure = {
         top: '31%',
         left: '5%'
     },
-    image: '',
+    image: 'assets/after-party.jpg',
     description: `
         After your most recent victory, you and the boys head to a VIP after party at club Flurrr. You are walking back to your roped off section with some drinks and a random guy displays some negligent behavior and knocks the drinks out of your hands all over you and your friends. What do you do?
     `,
