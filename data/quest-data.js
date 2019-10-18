@@ -75,24 +75,24 @@ const treasure = {
     },
     image: 'assets/after-party.jpg',
     description: `
-        After your most recent victory, you and the boys head to a VIP after party at club Flurrr. You are walking back to your roped off section with some drinks and a random guy displays some negligent behavior and knocks the drinks out of your hands all over you and your friends. What do you do?
+        After your most recent victory, you and the teammates head to a VIP after party at club Flurrr. You are walking back to your roped off section with some drinks and a random guy displays some negligent behavior and knocks the drinks out of your hands all over you and your friends. What do you do?
     `,
     choices: [{
         id: 'fight',
         description: 'Give him the ole razzle dazzle',
-        result: 'You get arrested and have to get bailed out by Coach, costing you a 20 salary contract violation fine. Your boys were pumped about it though and the fans kinda liked it gaining you 5 reputaion',
+        result: 'You get arrested and have to get bailed out by Coach, costing you a 20 salary contract violation fine. Your teammates were pumped about it though and the fans kinda liked it gaining you 5 reputaion',
         reputation: 5,
         salary: -20
     }, {
         id: 'walk-away',
-        description: 'Walk away and let your boys deal with it.',
-        result: 'Your boys tell the guy off and avoid a physical altercation but they are kinda mad that you bailed like that.',
+        description: 'Walk away and let your teammates deal with it.',
+        result: 'Your teammates tell the guy off and avoid a physical altercation but they are kinda mad that you bailed like that costing you 5 reputation.',
         reputation: -5,
         salary: 0
     }, {
         id: 'tell-off',
         description: 'Tell the guy to check himself before he wrecks himself',
-        result: 'A warm light engulfs you and you gain 35 reputation',
+        result: 'Your teammates are extremely glad you stayed out of trouble and you gain 15 reputation as a result',
         reputation: 15,
         salary: 0
     }]

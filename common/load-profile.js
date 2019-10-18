@@ -14,7 +14,7 @@ export const loadProfile = () => {
     avatar.src = '../assets/players/' + user.nbastar + '.png';
     salary.textContent = user.salary;
     if (isDead(user)) {
-        reputation.textContent = 'Free Agent';
+        reputation.textContent = 'Unwanted Free Agent';
     } else {
         reputation.textContent = user.reputation;
     }

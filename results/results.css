@@ -1,0 +1,21 @@
+img {
+    height: 100px;
+    width: auto;
+}
+body {
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../assets/basketball-background.jpg);
+    background-origin: bottom;
+    text-shadow: 3px;
+    text-shadow: 2px 2px rgb(65, 64, 64) ;
+    color: rgb(0, 184, 240);
+}
+.profile {
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+

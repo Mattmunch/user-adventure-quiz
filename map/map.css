@@ -2,3 +2,13 @@ img {
     height: 100px;
     width: auto;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+}
+
+.profile {
+    font-size: 20pt;
+}

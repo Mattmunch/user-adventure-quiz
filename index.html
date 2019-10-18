@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../common/main.css">
+    <link rel="stylesheet" href="./common/main.css">
     <link rel="stylesheet" href="./home/home.css">
     <title></title>
 </head>
 
 <body>
     <header>
-        <img src="./assets/nba-logo-2.png" alt="">
+        <img id='main-logo' src="./assets/nba-logo-2.png" alt="">
         <h1>NBA Journey</h1>
     </header>
-    
-    <main> 
+
+    <main>
         <h2>
             Start Here Rookie, Good Luck!
         </h2>
@@ -28,29 +28,40 @@
             <fieldset>
                 <legend>Pick Your player:</legend>
                 <p id="avatars">
-                    <label>
-                        <input type="radio" name="nbastar" required value="kobe">
-                        <img src="./assets/players/kobe.png">
-                        Kobe Bryant
-                    </label>
-                    <label>
-                        <input type="radio" name="nbastar" required value="lebron">
-                        <img src="./assets/players/lebron.png">
-                        LeBron James
-                    </label>
-                    <label>
-                        <input type="radio" name="nbastar" required value="kyrie">
-                        <img src="./assets/players/kyrie.png">
-                        Kyrie Irving
-                    </label>
-                    <label>
-                        <input type="radio" name="nbastar" required value="danny">
-                        <img src="./assets/players/danny.png">
-                        Danny Green
-                    </label>
-                </p>
-            </fieldset>
-            <button id="start-button">Start Adventure Quest</button>
+                    
+
+                        <div class="avatar-grid">
+                        <label>
+                                <input type="radio" name="nbastar" required value="danny">
+                                <img class="avatar-img" src="./assets/players/danny.png">
+                                <h2>Danny Green</h2>
+                            
+                        </label>
+                        <label>
+                            
+                                <input type="radio" name="nbastar" required value="kyrie">
+                                <img class="avatar-img" src="./assets/players/kyrie.png">
+                                <h2>Kyrie Irving</h2>
+                            
+                        </label>
+                        <label >
+                            
+                                <input type="radio" name="nbastar" required value="kobe">
+                                <img class="avatar-img" src="./assets/players/kobe.png">
+                                <h2>Kobe Bryant</h2> 
+                            
+                        </label>
+                        <label >
+                            
+                                <input type="radio" name="nbastar" required value="lebron">
+                                <img class="avatar-img"  src="./assets/players/lebron.png">
+                                <h2>LeBron James</h2>
+                        
+                        </label>
+                    </div>
+                    </p>
+                </fieldset>
+                <button id="start-button">Start Your Journey</button>
         </form>
     </main>
 

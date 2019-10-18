@@ -1,4 +1,4 @@
-img {
+.logo {
     height: 100px;
     width:auto;
     }
@@ -6,3 +6,44 @@ img {
         height: 200px;
         width: auto;
     }
+
+body {
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../assets/basketball-background.jpg);
+    background-origin: bottom;
+    text-shadow: 3px;
+    text-shadow: 2px 2px rgb(65, 64, 64) ;
+    color: rgb(0, 184, 240);
+}
+.profile {
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+}
+#choices {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+button {
+    height: 40px;
+    width: 120px;
+    background-color: darkslategray;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    color: aliceblue
+}
+button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;}
+

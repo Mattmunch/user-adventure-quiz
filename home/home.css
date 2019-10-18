@@ -1,11 +1,29 @@
 input:checked + img {
     border: solid 3px lightgreen;
 }
-img {
-    height: 100px;
-    width:auto;
-    
-    }
+
 input[type='radio'] {
         display: none;
         }
+form {
+    min-height: 500px;
+}
+.avatar-img{
+margin-right: 50px;
+}
+.avatar-grid {
+    display:inline-grid;
+    grid-auto-rows: 1;
+    font-size: 15pt;
+   align-content: center;
+   text-align: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#main-logo{
+height: 100px;
+width: auto;
+}
+.avatar-img {
+    height: 200px;
+    width: auto;
+}
